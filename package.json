@@ -1,0 +1,22 @@
+{
+  "name": "mailgun-lambda",
+  "version": "1.0.0",
+  "description": "Integrate Mailgun sending with AWS Lambda",
+  "main": "index.js",
+  "author": "Ru Chern Chong <dev@ruchern.xyz>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "form-data": "^4.0.0",
+    "mailgun.js": "^8.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "serverless": "^3.22.0",
+    "serverless-offline": "^10.0.0"
+  }
+}
