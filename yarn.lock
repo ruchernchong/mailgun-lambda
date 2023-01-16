@@ -3174,10 +3174,10 @@ luxon@^3.2.0:
   resolved "https://registry.yarnpkg.com/luxon/-/luxon-3.2.1.tgz#14f1af209188ad61212578ea7e3d518d18cee45f"
   integrity sha512-QrwPArQCNLAKGO/C+ZIilgIuDnEnKx5QYODdDtbFaxzsbZcc/a7WFq7MhsVYgRlwawLtvOUESTlfJ+hc/USqPg==
 
-mailgun.js@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/mailgun.js/-/mailgun.js-8.0.1.tgz#918fb7bf72474ef16f47f10659a2588534252af3"
-  integrity sha512-YeyugcYx01j96RmbrMFPbv0EQmDXtSlEeQTCYdmyewSBI2/Z+F3NulLLlkTGDIvf9+sCyD0MVxBBszPNSesbug==
+mailgun.js@^8.0.6:
+  version "8.0.6"
+  resolved "https://registry.yarnpkg.com/mailgun.js/-/mailgun.js-8.0.6.tgz#56a4e208bab5cfe0476f413cdf271c905ff34d8c"
+  integrity sha512-b+c7QO1T4oFsudEcRB2H7oZKth8ZDeYRW4xjW12QQVNYDSJCVxqSQfps6ofcH8fqcCMJdzc76HVNGdnUZgBPCw==
   dependencies:
     axios "^0.27.2"
     base-64 "^1.0.0"
