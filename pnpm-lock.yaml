@@ -20,11 +20,11 @@ devDependencies:
     specifier: ^2.8.8
     version: 2.8.8
   serverless:
-    specifier: ^3.32.2
-    version: 3.32.2
+    specifier: ^3.33.0
+    version: 3.33.0
   serverless-offline:
     specifier: ^12.0.4
-    version: 12.0.4(serverless@3.32.2)
+    version: 12.0.4(serverless@3.33.0)
 
 packages:
 
@@ -1046,7 +1046,7 @@ packages:
       node-dir: 0.1.17
       node-fetch: 2.6.11
       open: 7.4.2
-      semver: 7.5.1
+      semver: 7.5.3
       simple-git: 3.16.1(supports-color@8.1.1)
       type: 2.7.2
       uuid: 8.3.2
@@ -1387,8 +1387,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /aws-sdk@2.1397.0:
-    resolution: {integrity: sha512-Km+jUscV6vW3vuurSsGrTjEqaNfrE9ykA3IJmJb85V2z5tklJvoBU+7JcCiF6h3BDKegNjiFOM7uoL3cGVGz4g==}
+  /aws-sdk@2.1409.0:
+    resolution: {integrity: sha512-4tg4lkvqRQs/39Z/wp+WBcNwDv17zwErlwotIxkHg7kCybVD78mC0sTrjcBbRK01kOsgiS/NCImIWj6C8KsMzw==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       buffer: 4.9.2
@@ -1823,8 +1823,8 @@ packages:
     engines: {node: '>= 12'}
     dev: true
 
-  /dayjs@1.11.7:
-    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
+  /dayjs@1.11.9:
+    resolution: {integrity: sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==}
     dev: true
 
   /debug@4.3.4(supports-color@8.1.1):
@@ -3322,7 +3322,7 @@ packages:
       fs2: 0.3.9
       memoizee: 0.4.15
       node-fetch: 2.6.11
-      semver: 7.5.1
+      semver: 7.5.3
       type: 2.7.2
       validate-npm-package-name: 3.0.0
     transitivePeerDependencies:
@@ -3767,15 +3767,15 @@ packages:
     hasBin: true
     dev: true
 
-  /semver@7.5.1:
-    resolution: {integrity: sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==}
+  /semver@7.5.3:
+    resolution: {integrity: sha512-QBlUtyVk/5EeHbi7X0fw6liDZc7BBmEaSYn01fMU1OUYbf6GPsbTtd8WmnqbI20SeycoHSeiybkE/q1Q+qlThQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
       lru-cache: 6.0.0
     dev: true
 
-  /serverless-offline@12.0.4(serverless@3.32.2):
+  /serverless-offline@12.0.4(serverless@3.33.0):
     resolution: {integrity: sha512-G256wDHI12vE0CJ0uTJMBlfnaN7o7td4GgClvQtuedt/n7vKoUfN0och+LybD6YVGsR5h1xpYjPPPLy2QFqWaA==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
@@ -3805,7 +3805,7 @@ packages:
       object.hasown: 1.1.2
       p-memoize: 7.1.1
       p-retry: 5.1.2
-      serverless: 3.32.2
+      serverless: 3.33.0
       velocityjs: 2.0.6
       ws: 8.12.1
     transitivePeerDependencies:
@@ -3816,8 +3816,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /serverless@3.32.2:
-    resolution: {integrity: sha512-OIh0dF8siYI2coGFVXg1iKvkjZXO1g7LXXe2asZe0HDEXENlgLA47zMerz1l3iFWVHsFN0901c+eW8av2W/Uaw==}
+  /serverless@3.33.0:
+    resolution: {integrity: sha512-qmG0RMelsWmnS5Smxoy0CbjpecgnJlM89wzSIgJqfkGlmOo2nJdd8y0/E6KlaTsaozlPKkjUBDzis2nF8VNO2g==}
     engines: {node: '>=12.0'}
     hasBin: true
     requiresBuild: true
@@ -3828,7 +3828,7 @@ packages:
       ajv: 8.12.0
       ajv-formats: 2.1.1(ajv@8.12.0)
       archiver: 5.3.1
-      aws-sdk: 2.1397.0
+      aws-sdk: 2.1409.0
       bluebird: 3.7.2
       cachedir: 2.3.0
       chalk: 4.1.2
@@ -3836,7 +3836,7 @@ packages:
       ci-info: 3.8.0
       cli-progress-footer: 2.3.2
       d: 1.0.1
-      dayjs: 1.11.7
+      dayjs: 1.11.9
       decompress: 4.2.1
       dotenv: 16.3.1
       dotenv-expand: 10.0.0
@@ -3866,7 +3866,7 @@ packages:
       process-utils: 4.0.0
       promise-queue: 2.2.5
       require-from-string: 2.0.2
-      semver: 7.5.1
+      semver: 7.5.3
       signal-exit: 3.0.7
       stream-buffers: 3.0.2
       strip-ansi: 6.0.1
@@ -4092,7 +4092,7 @@ packages:
       mime: 2.6.0
       qs: 6.11.0
       readable-stream: 3.6.0
-      semver: 7.5.1
+      semver: 7.5.3
     transitivePeerDependencies:
       - supports-color
     dev: true
