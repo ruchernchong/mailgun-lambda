@@ -15,7 +15,7 @@
     "mailgun.js": "^9.1.2"
   },
   "devDependencies": {
-    "prettier": "^2.8.8",
+    "prettier": "^3.0.0",
     "serverless": "^3.33.0",
     "serverless-offline": "^12.0.4"
   }
