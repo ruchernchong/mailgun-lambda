@@ -20,11 +20,11 @@ devDependencies:
     specifier: ^3.0.1
     version: 3.0.1
   serverless:
-    specifier: ^3.33.0
-    version: 3.33.0
+    specifier: ^3.34.0
+    version: 3.34.0
   serverless-offline:
     specifier: ^12.0.4
-    version: 12.0.4(serverless@3.33.0)
+    version: 12.0.4(serverless@3.34.0)
 
 packages:
 
@@ -1226,6 +1226,13 @@ packages:
     resolution: {integrity: sha512-xoDlM2S4ortawSWORYqsdU+2rxdh4LRW9ytc3zmT37RIKQh6IHyKwwtKhKis9ah8ol07DCkZxPt8BBvPjC6v4g==}
     dev: true
 
+  /abort-controller@3.0.0:
+    resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
+    engines: {node: '>=6.5'}
+    dependencies:
+      event-target-shim: 5.0.1
+    dev: true
+
   /adm-zip@0.5.10:
     resolution: {integrity: sha512-x0HvcHqVJNTPk/Bw8JbLWlWoo6Wwnsug0fnYYro1HBrjxZ3G7/AZk7Ahv8JwDe1uIcz8eBqvu86FuF1POiG7vQ==}
     engines: {node: '>=6.0'}
@@ -2122,6 +2129,11 @@ packages:
     dependencies:
       d: 1.0.1
       es5-ext: 0.10.62
+    dev: true
+
+  /event-target-shim@5.0.1:
+    resolution: {integrity: sha512-i/2XbnSz/uxRCU6+NdVJgKWDTM427+MqYbkQzD321DuCQJUqOuJKIA0IM2+W2xtYHdKOmZ4dR6fExsd4SXL+WQ==}
+    engines: {node: '>=6'}
     dev: true
 
   /events@1.1.1:
@@ -3775,7 +3787,7 @@ packages:
       lru-cache: 6.0.0
     dev: true
 
-  /serverless-offline@12.0.4(serverless@3.33.0):
+  /serverless-offline@12.0.4(serverless@3.34.0):
     resolution: {integrity: sha512-G256wDHI12vE0CJ0uTJMBlfnaN7o7td4GgClvQtuedt/n7vKoUfN0och+LybD6YVGsR5h1xpYjPPPLy2QFqWaA==}
     engines: {node: '>=14.18.0'}
     peerDependencies:
@@ -3805,7 +3817,7 @@ packages:
       object.hasown: 1.1.2
       p-memoize: 7.1.1
       p-retry: 5.1.2
-      serverless: 3.33.0
+      serverless: 3.34.0
       velocityjs: 2.0.6
       ws: 8.12.1
     transitivePeerDependencies:
@@ -3816,8 +3828,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /serverless@3.33.0:
-    resolution: {integrity: sha512-qmG0RMelsWmnS5Smxoy0CbjpecgnJlM89wzSIgJqfkGlmOo2nJdd8y0/E6KlaTsaozlPKkjUBDzis2nF8VNO2g==}
+  /serverless@3.34.0:
+    resolution: {integrity: sha512-xtWAg78NGgboolP/GArdorx+UHyESJgriGSE6Qpgg9trTYsKMyd8YKaMIM3sidy89e45XZopRSpvnPYoQCJOBA==}
     engines: {node: '>=12.0'}
     hasBin: true
     requiresBuild: true
@@ -3825,6 +3837,7 @@ packages:
       '@serverless/dashboard-plugin': 6.2.3(supports-color@8.1.1)
       '@serverless/platform-client': 4.3.2(supports-color@8.1.1)
       '@serverless/utils': 6.11.1
+      abort-controller: 3.0.0
       ajv: 8.12.0
       ajv-formats: 2.1.1(ajv@8.12.0)
       archiver: 5.3.1
@@ -3847,7 +3860,6 @@ packages:
       fs-extra: 10.1.0
       get-stdin: 8.0.0
       globby: 11.1.0
-      got: 11.8.6
       graceful-fs: 4.2.11
       https-proxy-agent: 5.0.1(supports-color@8.1.1)
       is-docker: 2.2.1
