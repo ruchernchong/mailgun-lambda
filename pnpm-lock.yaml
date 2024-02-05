@@ -12,8 +12,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   mailgun.js:
-    specifier: ^10.0.1
-    version: 10.0.1
+    specifier: ^10.1.0
+    version: 10.1.0
 
 devDependencies:
   prettier:
@@ -4118,8 +4118,8 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /mailgun.js@10.0.1:
-    resolution: {integrity: sha512-sBHt10rF6XlDvADGEHTmoYmYWQ2DVSzA4TF/fUmhpl8cnzWAaZmcgac1QEqKI/NfYVB5lbMG0nJbieu0MD/zow==}
+  /mailgun.js@10.1.0:
+    resolution: {integrity: sha512-j2yP5HGT14xwobySPA+y5IZtKW+XxavNySmFt8A/ztXTCmmgd2OEJMX293femA579iXyphjfymXyTQ/DCP9aAg==}
     engines: {node: '>=18.0.0'}
     dependencies:
       axios: 1.6.2
